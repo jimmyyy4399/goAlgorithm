@@ -59,3 +59,21 @@ func Merge(A []int, TmpA []int, L int, R int, RightEnd int) {
 	//  RightEnd--
 	// }
 }
+
+/* func main() {
+	matrix := [][]int{
+		{4, 3, 2, 1},
+		{1, 2, 3, 4},
+		{},
+		{5},
+		{-1, -2, -3, -4},
+		{10, -10, 20, -20},
+		{5, 5, 5, 5, 5},
+		{1, 100, 2, 200, 3, 300},
+	}
+	for _, arr := range matrix {
+		Merge_Sort(arr, len(arr))
+	}
+	fmt.Println(matrix)
+}
+*/
